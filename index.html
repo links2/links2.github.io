@@ -9,6 +9,11 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
     <title>Links2.github.io by links2</title>
+    <link href="http://vjs.zencdn.net/4.3/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/4.3/video.js"></script>
+    <style type="text/css">
+      .vjs-default-skin { color: #dc2828; }
+    </style>
   </head>
 
   <body>
@@ -23,6 +28,12 @@
         </section>
       </div>
     </header>
+    
+    <video id="my_video_1" class="video-js vjs-default-skin" controls
+    preload="auto" width="640" height="264" poster="http://i.imgur.com/CihyGAm.jpg"
+    data-setup="{}">
+    <source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4'>
+    </video>
 
     <div class="container">
       <section id="main_content">
